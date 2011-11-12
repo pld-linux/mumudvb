@@ -36,7 +36,7 @@ install -d $RPM_BUILD_ROOT%{_mandir}/man8
 install -p doc/%{name}.8 $RPM_BUILD_ROOT%{_mandir}/man8
 
 %clean
-rm -rf $RPM_BUILD_ROOT%{_mandir}/man8
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
